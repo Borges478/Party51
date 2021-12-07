@@ -54,7 +54,7 @@ namespace PROJETO01.Dados.EntityFramework
                 .HasKey("UsuarioID");
 
             modelBuilder.Entity<Usuario>()
-                .Property("UsuarioID")
+                .Property("Usuario")
                 .HasColumnName("UsuarioID")
                 .HasColumnType("int")
                 .IsRequired();
@@ -66,7 +66,7 @@ namespace PROJETO01.Dados.EntityFramework
                 .IsRequired();
             
             modelBuilder.Entity<Usuario>()
-                .Property("DataNascimento")
+                .Property("Data de Nascimento")
                 .HasColumnName("DataNascimento")
                 .HasColumnType("varchar(200)")
                 .IsRequired();
@@ -82,7 +82,7 @@ namespace PROJETO01.Dados.EntityFramework
                 .HasColumnType("varchar(100)")
                 .IsRequired();
             modelBuilder.Entity<Usuario>()
-                .Property("Endereco")
+                .Property("Endereço")
                 .HasColumnName("Endereco")
                 .HasColumnType("varchar(100)")
                 .IsRequired();
