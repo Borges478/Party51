@@ -45,7 +45,7 @@ namespace PROJETO01.Dados.EntityFramework
                 .HasColumnType("varchar(100)")
                 .IsRequired();
 
-            base.OnModelCreating(modelBuilder);
+           /////////////////////////////////////////////////////////////////////////
         
         
         
@@ -54,7 +54,7 @@ namespace PROJETO01.Dados.EntityFramework
                 .HasKey("UsuarioID");
 
             modelBuilder.Entity<Usuario>()
-                .Property("Usuario")
+                .Property("UsuarioID")
                 .HasColumnName("UsuarioID")
                 .HasColumnType("int")
                 .IsRequired();
@@ -66,7 +66,7 @@ namespace PROJETO01.Dados.EntityFramework
                 .IsRequired();
             
             modelBuilder.Entity<Usuario>()
-                .Property("Data de Nascimento")
+                .Property("DataNascimento")
                 .HasColumnName("DataNascimento")
                 .HasColumnType("varchar(200)")
                 .IsRequired();
@@ -82,7 +82,7 @@ namespace PROJETO01.Dados.EntityFramework
                 .HasColumnType("varchar(100)")
                 .IsRequired();
             modelBuilder.Entity<Usuario>()
-                .Property("Endereço")
+                .Property("Endereco")
                 .HasColumnName("Endereco")
                 .HasColumnType("varchar(100)")
                 .IsRequired();
@@ -106,7 +106,7 @@ namespace PROJETO01.Dados.EntityFramework
                 .HasColumnName("CEP")
                 .HasColumnType("char(9)")
                 .IsRequired();
-            base.OnModelCreating(modelBuilder);
+            ////////////////////////////////////////////////////////////////////////
 
             modelBuilder.Entity<Organizador>()
                     .ToTable("Organizador")
@@ -136,7 +136,7 @@ namespace PROJETO01.Dados.EntityFramework
                 .HasColumnType("varchar(11)")
                 .IsRequired();
             
-            base.OnModelCreating(modelBuilder);
+           /////////////////////////////////////////////////////////////////////////////// 
 
             modelBuilder.Entity<CadastroFesta>()
                 .ToTable("CadastroFesta")
@@ -186,7 +186,7 @@ namespace PROJETO01.Dados.EntityFramework
                 .HasColumnType("int")
                 .IsRequired();
             
-            base.OnModelCreating(modelBuilder);
+            /////////////////////////////////////////////////////////////////////////
 
             modelBuilder.Entity<Convite>()
                 .ToTable("Convite")

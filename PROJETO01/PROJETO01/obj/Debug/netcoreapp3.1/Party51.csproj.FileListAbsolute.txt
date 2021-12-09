@@ -156,3 +156,4 @@ C:\Users\gabri\Desktop\Projeto Party 51 (visual)\Party51\PROJETO01\PROJETO01\obj
 C:\Users\gabri\Desktop\Projeto Party 51 (visual)\Party51\PROJETO01\PROJETO01\obj\Debug\netcoreapp3.1\Party51.dll
 C:\Users\gabri\Desktop\Projeto Party 51 (visual)\Party51\PROJETO01\PROJETO01\obj\Debug\netcoreapp3.1\Party51.pdb
 C:\Users\gabri\Desktop\Projeto Party 51 (visual)\Party51\PROJETO01\PROJETO01\obj\Debug\netcoreapp3.1\Party51.genruntimeconfig.cache
+C:\Users\gabri\Desktop\Projeto Party 51 (visual)\Party51\PROJETO01\PROJETO01\obj\Debug\netcoreapp3.1\Razor\Views\CadastroFesta\CadastroFesta.cshtml.g.cs
