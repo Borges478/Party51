@@ -29,12 +29,12 @@ namespace PROJETO01.Controllers
 
             if (obj == null)
             {
-                db.Estado.Add(FestaID);
+                db.FestaID.Add(FestaID);
             }
             else
             {
                 obj.Nome = FestaID.Nome;
-                db.Estado.Update(obj);
+                db.FestaID.Update(obj);
             }
 
             db.SaveChanges();
@@ -46,8 +46,8 @@ namespace PROJETO01.Controllers
         public IActionResult Editar(string FestaID)
         {
             var db = new Contexto();
-            var estado = db.Estado.First(item => item. == uf);
-            return View("Adicionar", estado);
+            var FestaID = db.FestaID.First(item => item. == FestaID);
+            return View("Adicionar", FestaID);
         }
 
         public IActionResult Listar()
