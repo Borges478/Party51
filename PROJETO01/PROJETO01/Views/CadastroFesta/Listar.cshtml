@@ -12,24 +12,40 @@
         <tr>
             <th>FestaID</th>
             <th>Nome</th>
+            <th>Endereço</th>
+            <th>Bairro</th>
+            <th>Cidade</th>
+            <th>Estado</th>
+            <th>Data e Hora</th>
+            <th>Preço do ingresso</th>
+            <th>Organizador</th>
             <th>Ações</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
-                <td>@item.FestaID</td>
-                <td>@item.Nome</td>
-                <td>
-                    <a href="/CadastroFesta/Editar?uf=@item.FestaID" class="btn btn-sm btn-warning">
-                        Editar
-                    </a>
-                    <a href="/CadastroFesta/Excluir?uf=@item.FestaID" class="btn btn-sm btn-danger">
-                        Excluir
-                    </a>
-                </td>
-            </tr>
+        <tr>
+            <td>@item.FestaID</td>
+            <td>@item.Nome</td>
+            <td>@item.Endereco</td>
+            <td>@item.Bairro</td>
+            <td>@item.Cidade</td>
+            <td>@item.UF</td>
+            <td>@item.DataFesta</td>
+            <td>@item.PrecoIngresso</td>
+            <td>@item.OrganizadorID</td>
+
+
+            <td>
+                <a href="/CadastroFesta/Editar?FestaID=@item.FestaID" class="btn btn-sm btn-warning">
+                    Editar
+                </a>
+                <a href="/CadastroFesta/Excluir?FestaID=@item.FestaID" class="btn btn-sm btn-danger">
+                    Excluir
+                </a>
+            </td>
+        </tr>
         }
     </tbody>
 </table>

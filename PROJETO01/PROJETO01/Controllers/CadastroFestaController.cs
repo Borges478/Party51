@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PROJETO01.Dados.EntityFramework;
+using PROJETO01.Modelos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,33 +10,39 @@ namespace PROJETO01.Controllers
 {
     public class CadastroFestaController : Controller
     {
-        public IActionResult Index(string FestaID ,string Nome, string Cidade, string Endereco, string Estado,string DataFesta, string Bairro, string PrecoIngresso)
-        {
-            var objeto = new CadastroFesta();
-            objeto.FestaID = FestaID;
-            objeto.Nome = Nome;
-           return View(objeto);}
+
 
         [HttpGet]
         public IActionResult Adicionar()
         {
-            return View();
+            var dbOrganizador = new Contexto();
+            ViewBag.Organizador = dbOrganizador.Organizador.ToList();
+            var dbEstado = new Contexto();
+           ViewBag.Estado = dbEstado.Estado.ToList();
+
+
+
+            return View("AdicionarFesta");
+            
+            
+
+
         }
 
-        public IActionResult AdicionarConfirmacao(CadastroFesta Nome)
+        public IActionResult AdicionarConfirmacao(CadastroFesta entidade)
         {
             var db = new Contexto();
 
-            var obj = db.CadastroFesta.FirstOrDefault(f => f.FestaID == CadastroFesta.FestaID);
+            var obj = db.CadastroFesta.FirstOrDefault(f => f.FestaID == entidade.FestaID);
 
             if (obj == null)
             {
-                db.FestaID.Add(FestaID);
+                db.CadastroFesta.Add(entidade);
             }
             else
             {
-                obj.Nome = FestaID.Nome;
-                db.FestaID.Update(obj);
+                obj.Nome = entidade.Nome;
+                db.CadastroFesta.Update(obj);
             }
 
             db.SaveChanges();
@@ -43,11 +51,16 @@ namespace PROJETO01.Controllers
         }
 
         [HttpGet]
-        public IActionResult Editar(string FestaID)
+        public IActionResult Editar(int FestaID)
         {
             var db = new Contexto();
-            var FestaID = db.FestaID.First(item => item. == FestaID);
-            return View("Adicionar", FestaID);
+            var entidade = db.CadastroFesta.First(item => item.FestaID == FestaID);
+            var dbOrganizador = new Contexto();
+            ViewBag.Organizador = dbOrganizador.Organizador.ToList();
+            var dbEstado = new Contexto();
+            ViewBag.Estado = dbEstado.Estado.ToList();
+
+            return View("AdicionarFesta", entidade);
         }
 
         public IActionResult Listar()
@@ -59,15 +72,16 @@ namespace PROJETO01.Controllers
             return View(listaDeFestas);
         }
 
-        public IActionResult Excluir(string FestaID)
+        public IActionResult Excluir(int FestaID)
         {
             var db = new Contexto();
-            var Festa = db.CadastroFesta.First(f => f.FestaID == FestaID);
-            db.FestaID.Remove(FestaID);
+            var entidade = db.CadastroFesta.First(f => f.FestaID == FestaID);
+            db.CadastroFesta.Remove(entidade);
             db.SaveChanges();
 
             return RedirectToAction("Listar");
 
 
         }
+    }
 }

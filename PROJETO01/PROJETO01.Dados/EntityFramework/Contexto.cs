@@ -161,13 +161,13 @@ namespace PROJETO01.Dados.EntityFramework
                 .IsRequired();
 
             modelBuilder.Entity<CadastroFesta>()
-                .Property("Estado")
+                .Property("UF")
                 .HasColumnName("Estado")
                 .HasColumnType("char(2)")
                 .IsRequired();
             modelBuilder.Entity<CadastroFesta>()
                 .Property("DataFesta")
-                .HasColumnName("DateFesta")
+                .HasColumnName("DataFesta")
                 .HasColumnType("Date")
                 .IsRequired();
             modelBuilder.Entity<CadastroFesta>()

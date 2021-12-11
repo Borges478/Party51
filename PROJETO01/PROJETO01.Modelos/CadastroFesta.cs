@@ -10,7 +10,7 @@ namespace PROJETO01.Modelos
         public string Nome { get; set; }
         public string Cidade { get; set; }
         public string Endereco { get; set; }
-        public string Estado { get; set; }
+        public string UF { get; set; }
         public DateTime DataFesta { get; set; }
         public string Bairro { get; set; }
         public string PrecoIngresso { get; set; }
