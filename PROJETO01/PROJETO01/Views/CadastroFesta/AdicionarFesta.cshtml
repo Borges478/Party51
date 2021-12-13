@@ -3,7 +3,7 @@
     <form asp-controller="CadastroFesta" asp-action="AdicionarConfirmacao" method="post">
         <div class="mb-3">
             <label for="FestaID" class="form-label">FestaID:</label>
-            <input asp-for="FestaID" type="number" class="form-control" placeholder="Digite o ID da Festa" />
+            <input asp-for="FestaID" type="text" class="form-control" placeholder="Digite o ID da Festa" />
         </div>
         <div class="mb-3">
             <label for="Nome" class="form-label">Nome:</label>
@@ -38,7 +38,7 @@
         </div>
         <div class="mb-3">
             <label for="Nome" class="form-label">Preço:</label>
-            <input asp-for="PrecoIngresso" type="number" class="form-control" placeholder="Digite o preço do ingresso para entrar" />
+            <input asp-for="PrecoIngresso" type="text" class="form-control" placeholder="Digite o preço do ingresso para entrar" />
         </div>
         <div class="mb-3">
             <label for="OrganizadorID" class="form-label">Organizador:</label>

@@ -46,7 +46,11 @@ namespace Party51.Controllers
         {
             var db = new Contexto();
             var entidade = db.Organizador.First(item => item.OrganizadorID == OrganizadorID);
-            return View("Organizador", entidade);
+            
+
+
+
+            return View("Adicionar", entidade);
         }
 
         public IActionResult Listar()
@@ -61,7 +65,7 @@ namespace Party51.Controllers
         public IActionResult Excluir(int OrganizadorID)
         {
             var db = new Contexto();
-            var entidade = db.Organizador.First(f => f.OrganizadorID == OrganizadorID);
+            var entidade = db.Organizador.First(item => item.OrganizadorID == OrganizadorID);
             db.Organizador.Remove(entidade);
             db.SaveChanges();
 

@@ -135,8 +135,9 @@ namespace PROJETO01.Dados.EntityFramework
                 .HasColumnName("Telefone")
                 .HasColumnType("varchar(11)")
                 .IsRequired();
-            
-           /////////////////////////////////////////////////////////////////////////////// 
+
+
+            /////////////////////////////////////////////////////////////////////////////// 
 
             modelBuilder.Entity<CadastroFesta>()
                 .ToTable("CadastroFesta")
@@ -168,7 +169,7 @@ namespace PROJETO01.Dados.EntityFramework
             modelBuilder.Entity<CadastroFesta>()
                 .Property("DataFesta")
                 .HasColumnName("DataFesta")
-                .HasColumnType("Date")
+                .HasColumnType("Datetime")
                 .IsRequired();
             modelBuilder.Entity<CadastroFesta>()
                 .Property("Bairro")

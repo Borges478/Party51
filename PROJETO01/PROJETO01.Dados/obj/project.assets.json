@@ -5719,25 +5719,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\040847\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\gabri\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\040847\\Desktop\\Nova pasta\\Party51\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\Desktop\\Projeto Party 51 (visual)\\Party51\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj",
       "projectName": "PROJETO01.Dados",
-      "projectPath": "C:\\Users\\040847\\Desktop\\Nova pasta\\Party51\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj",
-      "packagesPath": "C:\\Users\\040847\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\040847\\Desktop\\Nova pasta\\Party51\\PROJETO01\\PROJETO01.Dados\\obj\\",
+      "projectPath": "C:\\Users\\gabri\\Desktop\\Projeto Party 51 (visual)\\Party51\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabri\\Desktop\\Projeto Party 51 (visual)\\Party51\\PROJETO01\\PROJETO01.Dados\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\040847\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5748,9 +5748,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\040847\\Desktop\\Nova pasta\\Party51\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj": {
-              "projectPath": "C:\\Users\\040847\\Desktop\\Nova pasta\\Party51\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj"
+            "C:\\Users\\gabri\\Desktop\\Projeto Party 51 (visual)\\Party51\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj": {
+              "projectPath": "C:\\Users\\gabri\\Desktop\\Projeto Party 51 (visual)\\Party51\\PROJETO01\\PROJETO01.Modelos\\PROJETO01.Modelos.csproj"
             }
           }
         }
@@ -5763,6 +5764,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -5788,7 +5790,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

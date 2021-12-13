@@ -1,9 +1,13 @@
 ﻿
 @model List<PROJETO01.Modelos.Organizador>
 
+<br />
+
+
+
 <h3>
-    CADASTRO DE ESTADOS
-    <a class="btn btn-sm btn-primary float-right" href="/Organizador/Adicionar">
+    CADASTRO DE ORGANIZADORES
+    <a class="btn btn-dark  float-right" href="/Organizador/Adicionar" style="background-color:indigo">
         + ADICIONAR
     </a>
 </h3>
@@ -27,10 +31,10 @@
                 <td>@item.CPF</td>
                 <td>@item.Telefone</td>
                 <td>
-                    <a href="/Organizador/Editar?uf=@item.OrganizadorID" class="btn btn-sm btn-warning">
+                    <a href="/Organizador/Editar?OrganizadorID=@item.OrganizadorID" class="btn btn-sm btn-warning">
                         Editar
                     </a>
-                    <a href="/Organizador/Excluir?uf=@item.OrganizadorID" class="btn btn-sm btn-danger">
+                    <a href="/Organizador/Excluir?OrganizadorID=@item.OrganizadorID" class="btn btn-sm btn-danger">
                         Excluir
                     </a>
                 </td>
