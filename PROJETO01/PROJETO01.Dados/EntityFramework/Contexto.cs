@@ -186,7 +186,12 @@ namespace PROJETO01.Dados.EntityFramework
                 .HasColumnName("OrganizadorID")
                 .HasColumnType("int")
                 .IsRequired();
-            
+            modelBuilder.Entity<CadastroFesta>()
+                .Property("Imagem")
+                .HasColumnName("Imagem")
+                .HasColumnType("varchar(max)")
+                .IsRequired();
+
             /////////////////////////////////////////////////////////////////////////
 
             modelBuilder.Entity<Convite>()

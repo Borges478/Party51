@@ -15,6 +15,8 @@ namespace PROJETO01.Modelos
         public string Bairro { get; set; }
         public string PrecoIngresso { get; set; }
         public int OrganizadorID { get; set; }
+        public int Imagem { get; set; }
+
 
 
 
