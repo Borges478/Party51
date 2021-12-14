@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "//Huh9NvKvXeSMcZAewVTKl534ghUGwh4w5J55SWrnEschekSgK7CIJVq4ppvMjX2Lq7PS2Ar6XbeC2Xc9xRGg==",
+  "dgSpecHash": "rlrS2QyTlkibEg5sXmIxUqxboLXX/RCTC5v07/+AdsEJhg5tXS87TUDi7O4VHl26i9f8zi4oe38oleGsrIMDlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\Desktop\\Projeto Party 51 (visual)\\Party51\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\Documents\\Party51\\Party51\\PROJETO01\\PROJETO01.Dados\\PROJETO01.Dados.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

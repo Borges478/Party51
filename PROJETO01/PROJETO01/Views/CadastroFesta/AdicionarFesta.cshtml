@@ -1,5 +1,13 @@
 ﻿@model PROJETO01.Modelos.CadastroFesta
+<br />
+<br />
 
+<div class="container-fluid bg-light" style="border:solid">
+    <br />
+    <h3>Preencha os dados abaixo:</h3>
+    <br />
+    <br />
+    
     <form asp-controller="CadastroFesta" asp-action="AdicionarConfirmacao" method="post">
         <div class="mb-3">
             <label for="FestaID" class="form-label">FestaID:</label>
@@ -50,7 +58,7 @@
                 )
         </div>
         <div class="mb-3">
-            <label for="Nome" class="form-label">Imagem</label>
+            <label for="Nome" class="form-label">Imagem:</label>
             <input asp-for="Imagem" type="text" class="form-control" placeholder="Digite a url da imagem de sua festa:" />
         </div>
 
@@ -60,11 +68,15 @@
         <hr />
 
         <a href="#" class="btn btn-secondary" onclick="javascript:history.back()">
-            VOLTAR
+            
+           VOLTAR
         </a>
-
+      
         <button type="submit" class="btn btn-success float-right">
+            
             SALVAR
         </button>
-
+        <br />
     </form>
+    <br />
+</div>

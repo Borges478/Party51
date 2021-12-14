@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ewZR1MO1HuE2yesrs5GE8pMbxCsNn/n2JjQinGO3F3A06mfqFqa7Du70T3nE2eP+aJNeoH/rtMP5cQ0r3tfL/g==",
+  "dgSpecHash": "iFrW6xVZFIdS2+y4GLBwxDr15iLlSDOh4Hwkazcoqrm01TyTr7XB47LubmbJtE//LiQFvm1vuBTiEhFYDpMYmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\Desktop\\Projeto Party 51 (visual)\\Party51\\PROJETO01\\PROJETO01\\Party51.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\Documents\\Party51\\Party51\\PROJETO01\\PROJETO01\\Party51.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

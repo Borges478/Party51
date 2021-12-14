@@ -22,3 +22,16 @@ C:\Users\040847\Desktop\Nova pasta\Party51\PROJETO01\PROJETO01.Dados\obj\Debug\n
 C:\Users\040847\Desktop\Nova pasta\Party51\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.CopyComplete
 C:\Users\040847\Desktop\Nova pasta\Party51\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.dll
 C:\Users\040847\Desktop\Nova pasta\Party51\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.pdb
+C:\Users\gabri\Documents\Party51\Party51\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Dados.deps.json
+C:\Users\gabri\Documents\Party51\Party51\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Dados.dll
+C:\Users\gabri\Documents\Party51\Party51\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Dados.pdb
+C:\Users\gabri\Documents\Party51\Party51\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.dll
+C:\Users\gabri\Documents\Party51\Party51\PROJETO01\PROJETO01.Dados\bin\Debug\netcoreapp3.1\PROJETO01.Modelos.pdb
+C:\Users\gabri\Documents\Party51\Party51\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.AssemblyReference.cache
+C:\Users\gabri\Documents\Party51\Party51\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documents\Party51\Party51\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\Party51\Party51\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.AssemblyInfo.cs
+C:\Users\gabri\Documents\Party51\Party51\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\Party51\Party51\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.csproj.CopyComplete
+C:\Users\gabri\Documents\Party51\Party51\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.dll
+C:\Users\gabri\Documents\Party51\Party51\PROJETO01\PROJETO01.Dados\obj\Debug\netcoreapp3.1\PROJETO01.Dados.pdb

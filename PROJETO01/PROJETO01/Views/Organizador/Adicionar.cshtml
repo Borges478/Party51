@@ -1,10 +1,19 @@
 ﻿
 @model PROJETO01.Modelos.Organizador
+    
+
+<br />
+<br />
+<div class="container-fluid bg-light" style="border:solid">
+    <br />
+    <h3>Preencha os dados abaixo:</h3>
+    <br />
+    <br />
     <form asp-controller="Organizador" asp-action="AdicionarConfirmacao" method="post">
-        
-        
-        
-        
+
+
+        <br />
+
         <div class="mb-3">
             <label for="OrganizadorID" class="form-label">OrganizadorID:</label>
             <input asp-for="OrganizadorID" type="text" class="form-control" placeholder="Digite seu ID" />
@@ -21,9 +30,9 @@
             <label for="Nome" class="form-label">Telefone:</label>
             <input asp-for="Telefone" type="text" class="form-control" placeholder="Digite o numero de celular com DDD" />
         </div>
-        
-        
-        
+
+
+
         <hr />
 
         <a href="#" class="btn btn-secondary" onclick="javascript:history.back()">
@@ -33,5 +42,7 @@
         <button type="submit" class="btn btn-success float-right">
             SALVAR
         </button>
-
+        <br />
     </form>
+    <br />
+    </div>
